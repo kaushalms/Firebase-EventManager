@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EventManager</string>
+    <string name="facebook_app_id">236632686522030</string>
+    <string name="loading">Loading…</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="enter_event_name">Enter event name</string>
+</resources>

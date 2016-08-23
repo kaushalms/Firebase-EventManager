@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/locationEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/write_text"
+        android:drawableLeft="@drawable/search"
+        android:hint="Select location"
+        android:inputType="none"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColorHint="@color/grey_300" />
+
+    <ImageView
+        android:id="@+id/crossImage"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/cross" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/RecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/locationEditText"
+        android:layout_marginTop="10dp"
+        android:scrollbars="vertical" />
+
+</RelativeLayout>
